@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace Diseño_de_Experimentos
@@ -7,8 +8,14 @@ namespace Diseño_de_Experimentos
     class BubbleSort
     {
 
-        public int[] OrdenarBubbleSort(int[] arreglo)
+        public long OrdenarBubbleSort(int[] arreglo)
         {
+
+            Stopwatch sw = new Stopwatch();
+
+            sw.Restart();
+            sw.Start();
+
             int n = arreglo.Length;
             for (int i=2; i < n; i++)
             {
@@ -22,7 +29,11 @@ namespace Diseño_de_Experimentos
                     }
                 }
             }
-            return arreglo;
+            sw.Stop();
+
+            long tiempo = (long)(sw.Elapsed.TotalMilliseconds * 1000000);
+
+            return tiempo;
         }
 
 

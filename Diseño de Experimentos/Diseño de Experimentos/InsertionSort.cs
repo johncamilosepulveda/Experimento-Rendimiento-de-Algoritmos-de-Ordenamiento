@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace Diseño_de_Experimentos
@@ -7,8 +8,14 @@ namespace Diseño_de_Experimentos
     class InsertionSort
     {
 
-        public  int[] OrdenarInsertionSort(int[] arreglo)
+        public long OrdenarInsertionSort(int[] arreglo)
         {
+
+            Stopwatch sw = new Stopwatch();
+
+            sw.Restart();
+            sw.Start();
+
             int i, j,n, aux;
             n = arreglo.Length;
             for(i=1; i < n; i++)
@@ -22,7 +29,11 @@ namespace Diseño_de_Experimentos
                 }
                 arreglo[j + 1] = aux;
             }
-            return arreglo;
+            sw.Stop();
+
+            long tiempo = (long)(sw.Elapsed.TotalMilliseconds * 1000000);
+
+            return tiempo;
         }
         
 
