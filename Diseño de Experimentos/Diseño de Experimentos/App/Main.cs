@@ -56,7 +56,7 @@ namespace Diseño_de_Experimentos.App
 
                     string[] info = file.Split('-');
 
-                    string size = info[0];
+                    string size = info[0].Substring(11);
                     string orderType = info[1].Last().ToString();
                     string proccessor = Processor;
                     string lineNumbers;
@@ -73,6 +73,7 @@ namespace Diseño_de_Experimentos.App
                                 long intTime = BubbleSort.TimeBurbleSort(intNumbers);
                                 time = intTime.ToString();
                                 csv.AppendLine(proccessor + "," + size + "," + orderType + "," + algorithm + "," + time + "," + lineNumbers);
+                                File.WriteAllText(Directory.GetCurrentDirectory() + @"\Data\" + id + ".csv", csv.ToString());
                             }
                         }
                         else
@@ -84,6 +85,7 @@ namespace Diseño_de_Experimentos.App
                                 long intTime = InsertionSort.OrdenarInsertionSort(intNumbers);
                                 time = intTime.ToString();
                                 csv.AppendLine(proccessor + "," + size + "," + orderType + "," + algorithm + "," + time + "," + lineNumbers);
+                                File.WriteAllText(Directory.GetCurrentDirectory() + @"\Data\" + id + ".csv", csv.ToString());
                             }
                         }
                     }
