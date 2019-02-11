@@ -1,0 +1,11 @@
+D:\Estudio\Integrador\2019-1\Taller 3 Experimientos\Experimento-Rendimiento-de-Algoritmos-de-Ordenamiento\Diseño de Experimentos\Diseño de Experimentos\bin\Debug\netcoreapp2.1\Diseño de Experimentos.deps.json
+D:\Estudio\Integrador\2019-1\Taller 3 Experimientos\Experimento-Rendimiento-de-Algoritmos-de-Ordenamiento\Diseño de Experimentos\Diseño de Experimentos\bin\Debug\netcoreapp2.1\Diseño de Experimentos.runtimeconfig.json
+D:\Estudio\Integrador\2019-1\Taller 3 Experimientos\Experimento-Rendimiento-de-Algoritmos-de-Ordenamiento\Diseño de Experimentos\Diseño de Experimentos\bin\Debug\netcoreapp2.1\Diseño de Experimentos.runtimeconfig.dev.json
+D:\Estudio\Integrador\2019-1\Taller 3 Experimientos\Experimento-Rendimiento-de-Algoritmos-de-Ordenamiento\Diseño de Experimentos\Diseño de Experimentos\bin\Debug\netcoreapp2.1\Diseño de Experimentos.dll
+D:\Estudio\Integrador\2019-1\Taller 3 Experimientos\Experimento-Rendimiento-de-Algoritmos-de-Ordenamiento\Diseño de Experimentos\Diseño de Experimentos\obj\Debug\netcoreapp2.1\Diseño de Experimentos.csprojAssemblyReference.cache
+D:\Estudio\Integrador\2019-1\Taller 3 Experimientos\Experimento-Rendimiento-de-Algoritmos-de-Ordenamiento\Diseño de Experimentos\Diseño de Experimentos\obj\Debug\netcoreapp2.1\Diseño de Experimentos.csproj.CoreCompileInputs.cache
+D:\Estudio\Integrador\2019-1\Taller 3 Experimientos\Experimento-Rendimiento-de-Algoritmos-de-Ordenamiento\Diseño de Experimentos\Diseño de Experimentos\obj\Debug\netcoreapp2.1\Diseño de Experimentos.AssemblyInfoInputs.cache
+D:\Estudio\Integrador\2019-1\Taller 3 Experimientos\Experimento-Rendimiento-de-Algoritmos-de-Ordenamiento\Diseño de Experimentos\Diseño de Experimentos\obj\Debug\netcoreapp2.1\Diseño de Experimentos.AssemblyInfo.cs
+D:\Estudio\Integrador\2019-1\Taller 3 Experimientos\Experimento-Rendimiento-de-Algoritmos-de-Ordenamiento\Diseño de Experimentos\Diseño de Experimentos\bin\Debug\netcoreapp2.1\Diseño de Experimentos.pdb
+D:\Estudio\Integrador\2019-1\Taller 3 Experimientos\Experimento-Rendimiento-de-Algoritmos-de-Ordenamiento\Diseño de Experimentos\Diseño de Experimentos\obj\Debug\netcoreapp2.1\Diseño de Experimentos.dll
+D:\Estudio\Integrador\2019-1\Taller 3 Experimientos\Experimento-Rendimiento-de-Algoritmos-de-Ordenamiento\Diseño de Experimentos\Diseño de Experimentos\obj\Debug\netcoreapp2.1\Diseño de Experimentos.pdb

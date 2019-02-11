@@ -85,7 +85,6 @@ namespace Diseño_de_Experimentos.App
                                 time = intTime.ToString();
                                 csv.AppendLine(proccessor + "," + size + "," + orderType + "," + algorithm + "," + time + "," + lineNumbers);
                             }
-
                         }
                     }
                     streamReader.Close();
@@ -94,8 +93,6 @@ namespace Diseño_de_Experimentos.App
                 {
                     throw;
                 }
-
-
             }
             File.WriteAllText(Directory.GetCurrentDirectory() + @"\Data\" + id + ".csv", csv.ToString());
             Console.WriteLine("End");
