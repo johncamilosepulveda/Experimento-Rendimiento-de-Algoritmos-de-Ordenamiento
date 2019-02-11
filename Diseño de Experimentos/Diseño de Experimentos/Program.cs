@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Diseño_de_Experimentos.App;
+using System;
 
 namespace Diseño_de_Experimentos
 {
@@ -6,7 +7,9 @@ namespace Diseño_de_Experimentos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Main main = new Main();
+            main.GetProcessorName();
+            Console.Read();
         }
     }
 }

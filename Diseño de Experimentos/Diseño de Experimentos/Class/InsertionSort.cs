@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Diseño_de_Experimentos
 {
-    class InsertionSort
+    public class InsertionSort
     {
 
         public long OrdenarInsertionSort(int[] arreglo)
@@ -35,7 +35,38 @@ namespace Diseño_de_Experimentos
 
             return tiempo;
         }
-        
 
+        public int LinesInsertionSort(int[] arreglo)
+        {
+
+            int lines = 0;
+
+            int i, j, n, aux;
+            lines += 4;
+            n = arreglo.Length;
+            lines++;
+            for (i = 1; i < n; i++)
+            {
+                lines += 3;
+                aux = arreglo[i];
+                lines++;
+                j = i - 1;
+                lines++;
+                while (j >= 0 && arreglo[j] > aux)
+                {
+                    
+                    lines += 2;
+                    arreglo[j + 1] = arreglo[j];
+                    lines++;
+                    j--;
+                    lines++;
+                }
+                arreglo[j + 1] = aux;
+                lines++;
+            }
+            return ++lines;
+        }
     }
+
+    
 }
