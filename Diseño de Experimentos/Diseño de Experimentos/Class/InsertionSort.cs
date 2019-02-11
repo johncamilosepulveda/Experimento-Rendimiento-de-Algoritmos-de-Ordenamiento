@@ -8,7 +8,7 @@ namespace Diseño_de_Experimentos
     public class InsertionSort
     {
 
-        public long OrdenarInsertionSort(int[] arreglo)
+        public static long OrdenarInsertionSort(int[] arreglo)
         {
 
             Stopwatch sw = new Stopwatch();
@@ -36,7 +36,7 @@ namespace Diseño_de_Experimentos
             return tiempo;
         }
 
-        public int LinesInsertionSort(int[] arreglo)
+        public static int LinesInsertionSort(int[] arreglo)
         {
 
             int lines = 0;

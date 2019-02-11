@@ -8,7 +8,7 @@ namespace Diseño_de_Experimentos
     public class BubbleSort
     {
 
-        public long TimeBurbleSort(int[] arreglo)
+        public static long TimeBurbleSort(int[] arreglo)
         {
             Stopwatch sw = new Stopwatch();
             sw.Restart();
@@ -31,7 +31,7 @@ namespace Diseño_de_Experimentos
             return tiempo;
         }
 
-        public long LinesBurbleSort(int[] arreglo)
+        public static int LinesBurbleSort(int[] arreglo)
         {
             int countLines = 0;
             int n = arreglo.Length;
